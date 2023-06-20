@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.header-bar {
+  position: fixed;
+  width: 100%;
+}
+
+.header__nav {
+  width: 100%;
+  max-width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.header__nav-logo {
+  height: 70px;
+  padding: 0 20px;
+}
+
+.header__nav li {
+  display: inline-block;
+  padding: 0px 0px 0px 2px;
+}
+
+.header__nav img {
+  padding: 0px 0px 0px 15px;
+  opacity: 0.7;
+}
+
+.header__option {
+  height: 60px;
+  background-color: rgb(58, 122, 206);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__option li {
+  height: 100%;
+  display: inline-block;
+  padding: 8px 60px;
+  cursor: pointer;
+  border-right: 1px solid;
+}
+
+.header__option li:first-child {
+  border-left: 1px solid;
+}
+
+.header__nav-logo {
+}
+
+.header__nav-register {
+}
+
+.header__nav-register li {
+  font-weight: 200;
+  opacity: 0.8;
+}
+
+.header__search {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__search-bar {
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.header__enter {
+  width: 80%;
+  height: 100%;
+  border: none;
+  margin-left: 20px;
+}
+
+.header__btn-search {
+  margin: 0 20px;
+}
+
+.theme img {
+  width: 100%;
+  /* margin-top: 130px; */
+}
+
+.content__new {
+  padding: 100px 50px;
+  margin: 0 auto;
+}
+
+.content__new h2 {
+  text-align: center;
+  font-size: 60px;
+  padding: 16px;
+}
+
+.content__new-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.content__new-option img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  padding: 8px 8px 0 8px;
+}
+
+.content__new-description {
+  padding: 8px 0;
+  margin-left: 8px;
+  margin-right: 8px;
+  /* border: 0.5px solid rgb(154, 152, 152, 0.5);
+  border-radius: 10px; */
+}
+
+.content__new-description p {
+  line-height: 1.6;
+}
+
+.content__new-p1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.content__new-p2,
+.content__new-p3 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.content__new-p2 {
+  font-weight: 500;
+}
+
+.content__new-p3 {
+  font-weight: 400;
+}
